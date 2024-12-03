@@ -1,0 +1,12 @@
+{
+  "name": "todoproj",
+  "version": "1.0.0",
+  "main": "todo.js",
+  "scripts": {
+    "sass": "sass --watch styles/style.scss:dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Todo list</h2>
+    <div class="container" id="container">
+      <form class="form" id="form">
+        <input
+          type="text"
+          class="form__input"
+          id="input"
+          name="input"
+        />
+        <button class="form__button" type="submit">+</button>
+        <button class="getAllBtn" onclick="renderTodos()" type="button">getAll</button>
+      </form>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #333331;
+}
+.container{
+    width: 800px;
+    margin: 100px auto;
+    border: #333331 2px solid;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+}

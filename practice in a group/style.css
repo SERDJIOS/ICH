@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 250px;
+    padding: 22px;
+    
+}
+
+p {
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+}
+img{
+    margin-bottom: 24px;
+}
+.contentAPI{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 98px;
+    justify-content: center;
+    margin: 10px auto;
+}

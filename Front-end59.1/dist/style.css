@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #e4019a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px 10px 30px;
+}
+header .circle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+header .menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+header .menu li {
+  color: white;
+}
+
+#root {
+  margin: 100px auto 50px auto;
+  padding: 10px;
+  min-width: 700px;
+  border: 1px solid black;
+}
+#root h3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+#root p {
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+.triggers {
+  width: fit-content;
+  margin: 0 auto;
+}
+.triggers button {
+  border: none;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */

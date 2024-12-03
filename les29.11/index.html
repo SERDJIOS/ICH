@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="display-btn">
+        <button id="btn-form">Display Form</button>
+      </div>
+
+      <div class="container" style="display: none">
+        <h3>Отправить данные</h3>
+        <div class="box">
+          <div class="container-left"></div>
+          <div class="container-right">
+            <div class="description"></div>
+            <form class="form">
+              <label>Имя пользователя</label>
+              <input type="text" class="nameValue" />
+              <label>Телефон</label>
+              <input type="text" class="telValue" />
+              <label>Почта</label>
+              <input type="text" class="emailValue" />
+              <label>Компания</label>
+              <input type="text" class="compValue" />
+
+              <button class="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="dynamic-block">
+        Этот блок изменяет размер в зависимости от размеров окна браузера!
+    </div>
+    <p>Этот текст изменяет цвет в зависимости от ширины окна!</p>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

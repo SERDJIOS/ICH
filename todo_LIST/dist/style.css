@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: darkslateblue;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 320px;
+  background: darkcyan;
+  padding: 16px;
+  border-radius: 12px;
+}
+.container .form {
+  display: flex;
+  width: 100%;
+  height: 36px;
+  gap: 8px;
+}
+.container .form__input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+.container .form__button {
+  border: none;
+  height: 100%;
+  width: auto;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+}
+.container .form .getAllBtn {
+  border: none;
+  background: white;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.container .form .removeBtn {
+  border: none;
+  background: white;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.todo__label {
+  font-size: 14px;
+}
+
+.todo__label--done {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */

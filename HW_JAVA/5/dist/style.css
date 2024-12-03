@@ -1,0 +1,23 @@
+.container {
+  width: 960px;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+button {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 120px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
