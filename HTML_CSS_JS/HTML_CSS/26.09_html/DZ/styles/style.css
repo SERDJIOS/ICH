@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #0720f9;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    color: #070707;
+    border-color: #1abc9c;
+}
+
+.btn:focus {
+    color: transparent;
+    background-color: #e612ad;
+    border-color: #a0167b;
+}
+
+.btn:focus::after {
+    content: 'ОП-ОП:)';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 18px;
+    white-space: nowrap;
+}    

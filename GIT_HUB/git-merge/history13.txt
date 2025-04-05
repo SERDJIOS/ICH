@@ -1,0 +1,16 @@
+  577  git push -u origin feature\ngit commit --amend -m "Изменения в README.md и .gitignore (ammend)"
+  578  git push --force
+  579  git checkout main
+  580  git merge feature
+  581  history | tail -n 25 >> history12.txt
+  582  cat history12.txt
+  583  git commit -m "Добавлен файл history.txt с командами"
+  584  git push origin main
+  585  git status
+  586  cat history12.txt
+  587  history | tail -n 35 >> history12.txt
+  588  cat history12.txt
+  589  history | tail -n 35 > history12.txt
+  590  cat history12.txt
+  591  history | tail -n 35 > history13.txt
+  592  cat history13.txt

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.intro__top{
+    display: flex;
+    justify-content: flex-end;
+}
+.intro__top h4{
+    width: 100%;
+    color: white;
+    text-align: right;
+    background: #323232;
+    padding: 16px 40px 16px 0;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.intro__top button{
+    min-width: 215px;
+    padding: 16px;
+     background: #FF3C00;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+}
+.container{
+    max-width: 1272px;
+    margin: 0 auto;
+    
+}
+.into__main-content{
+    justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+
+}
+.into__main h1{
+    font-size: 72px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+
+}
+.into__main-content p{
+    max-width: 816px;
+    line-height: 33.6px;
+    font-size: 20px;
+}
+.into__main-content p:first-child{
+    margin-bottom: 26px;
+
+}
+.into__main-content p:nth-child(2){
+    margin-bottom: 57px;
+}
+.intro-content_left{
+    padding-top: 44px;
+}
+.intro-content_left button{
+    text-transform: uppercase;
+    padding: 22px 35px;
+    background-color: #323232;
+    color: white;
+    font-weight: bold;
+    font-size: 19.5px;
+
+}
+.intro{
+    background: url(./bg/intro.jpg) no-repeat center center / cover;
+}
+.intro__main{
+    padding: 231px 0;
+    text-align: center;
+
+
+}

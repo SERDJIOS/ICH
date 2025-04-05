@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.form{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btn,input{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid teal;
+    margin-top: 2px;
+}
+.label_input{
+    display: flex;
+    flex-direction: column;
+}

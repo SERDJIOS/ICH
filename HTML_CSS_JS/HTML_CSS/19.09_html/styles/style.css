@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* p {
+    width: 50%;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+} */
+
+/* p {
+    font-size: 2em;
+}
+
+.box h3 {
+    font-size: 32px;
+    border: 1px solid;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box p {
+    font-size: 8px;
+} */
+
+/* p {
+    background-color: teal;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 20px;
+    height: 100vh;
+} */
+
+.cat__list {
+    width: 800px;
+    margin: 0 auto;
+    height: 100vh;
+    /* background-color: teal; */
+    border: 2px solid red;
+    /* background-image: url('../assets/cat.webp'); */
+    /* принимает 2 значени - высота, ширина */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* принимает 2 значения - ось x ось y */
+    /* background-position: top center; */
+    /* первое значени - url, backbround-repeat, background-position, background-size */
+    background: url('../assets/cat.webp') no-repeat top center / contain teal;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background: teal;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+}

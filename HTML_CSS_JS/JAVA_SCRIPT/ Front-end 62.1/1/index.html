@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    
+    <button class="open__modal"> open modal</button>
+    <!-- 1. создание контейнера для модального окна -->
+    <div class="modal">
+        <!-- 2. Само содержимое модального окна -->
+        <div class="modal__content">
+            <img src="./close.svg" alt="close" id="close">
+            <h3>Modal</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod quam harum, obcaecati eligendi dolores in ab iste consequuntur provident.</p>
+        </div>
+    </div>
+
+    <!-- Модальное окно через dialog -->
+    <button id="openDialogModal">Open modal</button>
+    <dialog class="dialog__modal">
+        <img src="./close.svg" alt="close" id="closeDialog">
+      <div class="modal-header">Модальное окно</div>
+    </dialog>
+    <script src="./script.js"></script>
+    <script src="./script.js" ></script>
+</body>
+</html>

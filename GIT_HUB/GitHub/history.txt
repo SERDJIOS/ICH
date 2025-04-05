@@ -1,0 +1,16 @@
+  308* npm run sass
+  309* npm run sass \n
+  310  git clone git@github.com:Blunt0FF/GitHub.git
+  311  cd GitHub/
+  312  git checkout -b feature
+  313  nano README.md
+  314  nano .gitignore
+  315  git add .
+  316  git commit -m "Добавлены изменения в файлы"
+  317  git push origin feature
+  318  git commit --amend -m "Добавлены изменения в файлы - amend"
+  319  git push origin feature --force
+  320  git checkout -b main
+  321  git checkout main
+  322  git merge feature\n
+  323  git push origin main

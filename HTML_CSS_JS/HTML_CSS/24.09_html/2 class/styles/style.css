@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h2{
+    text-align: center;
+}
+form{
+    display: flex;
+    max-width: 800px;
+    
+    background-color: blanchedalmond;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+.form input{
+    background-color: aqua;
+    border: 1px solid red;
+}

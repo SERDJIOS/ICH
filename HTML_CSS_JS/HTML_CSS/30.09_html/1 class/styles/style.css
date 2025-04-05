@@ -1,0 +1,19 @@
+
+.grid__body{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 250px;
+    height: 250px;
+    grid-gap: 105px;
+    
+ 
+ }
+ .class__item{
+    
+     text-align: center;
+    
+     padding: 30px;
+     
+ }
+ 

@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+    .cat {
+        background: url('../image\ 1.jpg') no-repeat top center / cover teal;
+        margin: 0 auto;
+        height: 100vh;
+    }
+    .box {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+    .cat__list {
+       
+        /* background-color: teal; */
+        /* background-image: url('../assets/cat.webp'); */
+        /* принимает 2 значени - высота, ширина */
+        /* background-size: contain; */
+        /* background-repeat: no-repeat; */
+        /* принимает 2 значения - ось x ось y */
+        /* background-position: top center; */
+        /* первое значени - url, backbround-repeat, background-position, background-size */
+        width: 60px;
+        height: 30px;
+    margin-top: 50px;
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid;
+
+    }
+}

@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form h3 {
+    border-bottom: 1px solid #b01616f0;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+  }
+  
+  
+  form .form__field:nth-child(3) {
+    margin-bottom: 15px;
+  }
+  
+  .form__field label {
+    margin-top: 15px;
+  }
+  
+  .form__field label span {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .form__field input {
+    padding: 10px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 2px;
+    width: 300px;
+    background: rgb(219, 219, 219);
+  }
+  
+  form button {
+    background: #b01616f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 15px;
+  }
+   
