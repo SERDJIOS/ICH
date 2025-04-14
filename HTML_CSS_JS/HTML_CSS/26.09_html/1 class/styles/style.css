@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(19, 191, 134);
+}
+/* применяются стили при наведении мышки(в телефоне при клике на элемент) */
+.box:hover{
+    background-color: red;
+    /* отвечает за плавность анимации */
+  transition: 0.5s;
+}
+input[type="radio" i]:checked{
+    background-color: aqua;
+}
+  
+header ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+header ul li:hover{
+    background-color: rgb(51, 0, 255);
+    transition: 0.5s;
+
+}
+.active__btn:hover {
+    background-color: yellow;
+}
+/* применяются стили по определенному действию */
+.active__btn:active {
+    background-color: blue;
+
+}
+.button__hover,
+.button__active{
+
+}
+/* применяется на ссылки, которые мы еще не посещали */
+a:link{
+    color: magenta;
+}
+.disabled__btn {
+
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+  
+  .disabled__btn:disabled {
+    border: 2px solid gray;
+  }
+  
+  .focus__input:focus {
+    border: 1px solid teal;
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .item:last-child {
+    background-color: blue;
+  } */
+  
+  /* обращаемся к элементам  в родителе по нечетному порядку(odd) и по четному (even) */
+  a:link{
+    color: magenta;
+   }
+  .item:nth-child(3) {
+    background-color: gold;
+  }
+  
+  .item:nth-child(2) {
+    background-color: green;
+  }
+  
+  .item:nth-child(1) {
+    background-color: hotpink;
+  }
+  
+  .item:nth-child(5) {
+    background-color: yellow;
+  }

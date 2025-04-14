@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin: 40px;
+    
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+.circle3{
+  background-color: rgb(47, 0, 255);
+  border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    right: 200px;
+    bottom: 400px;
+    left: 130px;
+    top: 200px;
+    right: 20p;
+    position: absolute;
+
+}
+.circle2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    right: 200px;
+    border-radius: 50%;
+    top: 200px;
+    right: 20p;
+    position: absolute;
+   
+  }
+  
+  .circle1{
+    background-color: rgb(255, 55, 0);
+    width: 150px;
+    height: 150px;
+    right: 20px;
+    border-radius: 50%;
+    top: 100px;
+    bottom: 350;
+    left: 200px;
+    position: absolute;
+    
+  }
+  .circle0{
+    border: 8px solid rgb(17, 17, 17);
+    
+    width: 150px;
+    height: 150px;
+    right: 20px;
+    border-radius: 50%;
+    top: 100px;
+    position: absolute;
+    bottom: 370px;
+    left: 120px;
+   
+
+  }

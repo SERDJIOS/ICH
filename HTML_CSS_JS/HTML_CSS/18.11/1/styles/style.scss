@@ -1,0 +1,14 @@
+@use 'reset';
+@use 'variables';
+@use 'header';
+@use 'mixins';
+
+@mixin basicFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    @include basicFlex
+}

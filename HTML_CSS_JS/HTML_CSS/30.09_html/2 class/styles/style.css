@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 1512px;
+}
+ul {
+    list-style: none;
+}
+
+header {
+    background: #1ABC9C;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1383px;
+    margin: 0 auto;
+    align-items: center;
+}
+.menu {
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.text_box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.img_box img{
+    width: 756px;
+    height: 694.38px;
+    top: 70px;
+    gap: 20px;
+    opacity: 20px;    
+}
+.text_box{
+    padding: 20px 10px 15px 20px;
+    text-align: center;
+
+}
+.text_box h2{
+display: flex;
+justify-content: center;
+font-family: Inter;
+font-size: 35px;
+font-weight: 400;
+line-height: 42.36px;
+ text-align: left;
+}
+.text_box textarea{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+}
+.icons {
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+
+}
+
+footer {
+    display: grid;;
+    margin: 0 auto;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 315px);
+    justify-items: center;
+    align-items: center;
+    padding: 55px 0 76px 0;
+    margin: 0 auto;
+}
+
+.footer__container h4 {
+    margin: 25px 0;
+}
+
+.footer__container p {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer__container li {
+    text-align: center;
+}
+
+.footer__container li:nth-child(2) p {
+    width: 100%;
+    text-align: center;
+    
+}
+.about{
+    display: flex;
+    
+}
+h2{
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: left;
+    }
+h3{
+     margin: 10px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: left;  
+}
+
+.arena{
+    padding: 10  0px;
+    padding-top: 120px;
+    width: 1512px;
+    height: 730px;
+    top: 764px;
+    gap: 20px;
+    opacity: 0px;
+    background: #DCFFEB;
+}
+@media(max-width: 1512){
+    body{
+        display: flex;
+    }
+}

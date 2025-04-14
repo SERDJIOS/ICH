@@ -1,0 +1,88 @@
+@use "reset.scss";
+@use './variables';
+@use 'mixins.scss';
+@use 'header.scss';
+
+@mixin flipContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+@mixin ICard {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 10px 10px 50px -36px rgba(0,0,0,0.75);
+}
+
+%IShare {
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.card {
+    @include ICard
+}
+
+.flip {
+    @include flipContainer
+}
+
+.box {
+    @extend %IShare;
+    padding: 10px;
+
+    &__item {
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+    }
+    &::before{
+        content: '';
+        position:absolute;
+        
+    }
+}
+
+// Создать класс-шаблон для кнопки, которая имеет параметры: ширина 240px, высота 48px, радиус углов 8px, тень с любыми параметрами.
+// Создать классы для 3 вариантов кнопок: основная кнопка, второстепенная кнопка, кнопка с иконкой (использовать flex).
+
+%shabl {
+    width: 240px;
+    height: 48px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-1{
+    @extend %shabl;
+    background-color: #000000;
+    color: #fff
+}
+
+.btn-2{
+    @extend %shabl;
+    background-color: #2600ff;
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+
+.btn-3{
+    @extend %shabl;
+    background-color: #ffffff;
+    color: #212529;
+    border: 1px solid #ced4da;
+    &::before {
+        content: "🔍";
+        position: absolute;
+        left: 16px;
+        font-size: 20px;
+    }
+}

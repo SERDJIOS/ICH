@@ -1,0 +1,61 @@
+/* • - селектор */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    color: purple;
+}
+
+.greetings {
+    color: white;
+    background-color: #333331;
+    padding: 10px;
+    margin: 10px;
+}
+
+.greetings3 {
+    color: green;
+    background: yellowgreen;
+    /* padding и margin принимают 4 значения свойства 
+    отвечающие сторонам вверх право низ лево по часовой */
+    padding: 10px 40px 100px 150px;
+    margin: 15px 10px 40px 10px;
+}
+
+.raduis {
+    border-radius: 8px;
+}
+
+.border {
+    border: 3px solid magenta;
+}
+/* селектор ID самый приоритетный для браузера */
+#uniq {
+    background-color: red;
+}
+
+.idClass{
+    background-color: magenta;
+}
+
+button[type="submit"] {
+    background-color: transparent;
+    /*в случае написания двух значений свойства, 
+     первое воспринимается как верх-низ, второе - право-лево */
+    padding: 0px 10px;
+}
+
+.paragraph {
+    /* чтобы центрировать элемент с помощью свойства 
+    margin: 0 auto; мы должны ограничить ширину центрируемого
+    элемента width или max-width */
+    margin: 0 auto;
+    max-width: 480px;
+
+    border: 5px solid magenta;
+
+    border-top: 5px solid black;
+    border-bottom: 5px solid purple;
+}

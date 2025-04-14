@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 10px 10px 50px -36px rgba(0, 0, 0, 0.75);
+}
+
+.flip {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.box {
+  padding: 10px;
+}
+.box__item {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+}
+
+.btn-3, .btn-2, .btn-1 {
+  width: 240px;
+  height: 48px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-1 {
+  background-color: #000000;
+  color: #fff;
+}
+
+.btn-2 {
+  background-color: #2600ff;
+  color: #212529;
+  border: 1px solid #ced4da;
+}
+
+.btn-3 {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #ced4da;
+}
+.btn-3::before {
+  content: "🔍";
+  position: absolute;
+  left: 16px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

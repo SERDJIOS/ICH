@@ -1,0 +1,1 @@
+SELECT STR_TO_DATE('21,5,2015', '%d,%m,%Y') as dttm;

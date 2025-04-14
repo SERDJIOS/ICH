@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+          <div class="circle"></div>
+          <h3>Rorry the pop</h3>
+        </div>
+  
+        <nav>
+          <ul class="menu">
+            <li>БЛОГ</li>
+            <li>О НАС</li>
+            <li>МАГАЗИН</li>
+            <li>СОЗДАТЕЛИ</li>
+            <li>АВТОРИЗАЦИЯ</li>
+          </ul>
+        </nav>
+      </header>
+  
+      <button class="open-modal">Modal</button>
+  
+      <div class="modal">
+        <div class="content">
+          <img src="./close.svg" alt="close" id="close" />
+  
+          <h2>POSTS</h2>
+  
+          <form class="newPost">
+            <input type="text" placeholder="title" id="title" required />
+            <input type="text" placeholder="post" id="description" required />
+  
+            <button type="submit" class="create">Create</button>
+          </form>
+          <div class="posts"></div>
+  
+          <button class="render">Render</button>
+  
+          <div class="newBox"></div>
+        </div>
+      </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

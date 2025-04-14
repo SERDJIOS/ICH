@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 1000px;
+}
+
+.container {
+  
+  width: 749px;
+  height: 456px;
+  border: 1px solid black;
+}
+.container img {
+ margin: 68px;
+  width: 347px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn1{
+font-size: 32px;
+background-color: transparent;
+border-radius: 8px;
+width: 269px;
+height: 88px;
+gap: 0px;
+border-radius: 8px;
+
+
+
+
+}
+.main {
+width: 720px;
+display: flex;
+justify-content: center;
+align-items: center;
+}

@@ -1,0 +1,19 @@
+.resultContainer {
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3e6ff;
+  }
+  
+  .resultTitle {
+    font-size: 1.4rem;
+    color: #0077cc;
+    margin-bottom: 8px;
+  }
+  
+  .resultText {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }

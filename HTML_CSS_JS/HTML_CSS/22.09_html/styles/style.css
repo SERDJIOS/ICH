@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    
+}
+.int input{
+    width: 100%;
+    cursor: pointer;
+}
+.item{
+    flex-direction: column;
+    height: 40px;
+   
+}
+.container {
+   padding: 40px;
+    max-width: 400px;
+    margin: 30% auto 0 auto;
+}
+
+.int{
+    padding: 3px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.menu{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(0, 153, 255);
+    border: 1px solid black;
+   
+}
+.item_submit{
+   
+}
+
+
+
+
+

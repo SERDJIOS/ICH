@@ -1,0 +1,25 @@
+body{
+    max-width: 700px;
+    height: 500px;
+    background-color: plum;
+  
+
+}
+.parent {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    
+}
+
+.child{
+   
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    font-size: 35px;
+}

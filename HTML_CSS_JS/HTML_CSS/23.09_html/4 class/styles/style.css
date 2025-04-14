@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    /* выравнивание по горизонтали */
+    justify-content: center;
+    /* создает равное расстояние между дочерними элементами по всей допустимой 100% ной ширине */
+    /* justify-content: space-between; */
+    /* создает равное расстояние между дочерними элементами по всей допустимой 100% ной ширине и создает расстояние слева и справа от границы равное половине расстоянию между элементами */
+    /* justify-content: space-around; */
+    /* создает расстояние между дочерними элементами флекса */
+    gap: 20px;
+    /* выравнивает элементы по вертикали */
+    /* align-items: center; */
+    /* выравнивает элементы по верху допустимой высоты */
+    /* align-items: flex-start; */
+    /* выравнивает элементы по низу допустимой высоты */
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  
+  .box {
+      width: 300px;
+  }
+  
+  .container2 {
+      display: grid;
+  }
+  
+  @media(max-width: 450px) {
+      .menu {
+          flex-direction: column;
+      }
+  }
