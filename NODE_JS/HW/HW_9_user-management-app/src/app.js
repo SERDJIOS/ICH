@@ -2,11 +2,12 @@ import express from 'express';
 import sequelize from './config/db.js';
 import User from './models/user.js';
 import bcrypt from 'bcrypt';
+import authenticateToken from './middlewares/authenticaToken.js';
+import checkAdminInRole from './middlewares/checkAdmin.js';
+import checkMustChangePassword from './middlewares/mustChangePassword.js';
 
 const app = express();
 app.use(express.json());
-
-
 
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
@@ -55,7 +56,16 @@ const isAdmin = async (req, res, next) => {
   next();
 };
 
-app.get('/admin', isAdmin, (req, res) => {
+app.get('/users', authenticateToken, checkAdminInRole, async (req, res) => {
+  try {
+    const users = await User.findAll();
+    res.status(200).json(users);
+  } catch (error) {
+    res.status(500).json({ error: 'Ошибка при получении пользователей' });
+  }
+});
+
+app.get('/admin', authenticateToken, checkAdminInRole, (req, res) => {
   res.json({ message: 'Добро пожаловать, админ!' });
 });
 
@@ -72,15 +82,7 @@ app.post('/change-email', async (req, res) => {
 });
 
 // Middleware для проверки mustChangePassword
-const checkMustChangePassword = async (req, res, next) => {
-  const user = await User.findByPk(req.body.userId);
-  if (user && user.mustChangePassword) {
-    return res.status(403).json({ message: 'Сначала смените пароль' });
-  }
-  next();
-};
-
-app.get('/protected', checkMustChangePassword, (req, res) => {
+app.get('/protected', authenticateToken, checkMustChangePassword, (req, res) => {
   res.json({ message: 'Вы успешно вошли в защищенную зону' });
 });
 
